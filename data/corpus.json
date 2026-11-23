@@ -1,47 +1,113 @@
 {
-  "project": "湿地观测简报的物种别名与跨期趋势",
-  "material_title": "巡护记录、名称表及周报回执",
+  "project": "暗夜观测报名中的照明例外与接力安排",
   "material_nature": "本地合成演练资料",
   "records": [
     {
-      "kind": "taxon",
-      "id": "tx1",
-      "text": "旧名2025版|“小天鹅”指 Cygnus columbianus。"
+      "id": "B1",
+      "kind": "报名",
+      "text": "韩榆：去程进亭从坡上走我可以关灯，回来过堤时须一路有红灯照着。往返都能有人陪，但不接受断续开灯。",
+      "arrival_order": 1,
+      "references": []
     },
     {
-      "kind": "taxon",
-      "id": "tx2",
-      "text": "2026复核|C. columbianus 拆分为北方型与山地型；旧名来源不够区分时保留未定。"
+      "id": "B2",
+      "kind": "报名",
+      "text": "同行的余果：Solid red is fine if needed, no flashing on the path. 我的原话不用转给入口。",
+      "arrival_order": 2,
+      "references": []
     },
     {
-      "kind": "note",
-      "id": "n1",
-      "text": "5月30日桥南亲见|小天鹅约十一，岸上两人同看。图片未核，记录者齐舟。"
+      "id": "B3",
+      "kind": "报名",
+      "text": "家长代填：我们不要亮光。子女随后写：我说的是走路避闪，不是不要固定红灯，等我确定是否参加。",
+      "arrival_order": 3,
+      "references": []
     },
     {
-      "kind": "note",
-      "id": "n2",
-      "text": "5月31日东滩转发|c. columbianus 11只，引用 n1 群消息，另由志愿者转手录入。"
+      "id": "F1",
+      "kind": "本人确认",
+      "text": "韩榆同意去程坡道，回程原路不符合。同行余果确认使用同一个回程陪行员。",
+      "arrival_order": 4,
+      "references": [
+        "B1",
+        "B2"
+      ]
     },
     {
-      "kind": "note",
-      "id": "n3",
-      "text": "6月1日北护堤亲见|至少5只山地型，巡护队编号 P2，图片由顾岚复核。"
+      "id": "T1",
+      "kind": "观测",
+      "text": "东台20:20至20:40四席，目镜可调。入场码由入口点验。",
+      "arrival_order": 5,
+      "references": []
     },
     {
-      "kind": "effort",
-      "id": "e1",
-      "text": "观察日志|5月30日有记录，5月31日未派观察员，6月1日有记录。"
+      "id": "P1",
+      "kind": "路径",
+      "text": "入口到东台的坡道，步行5分钟，20:10至21:15禁补光。",
+      "arrival_order": 6,
+      "references": []
     },
     {
-      "kind": "public",
-      "id": "p1",
-      "text": "待发周报|5月30日、5月31日、6月1日按三天计有上升趋势。P2 位于公开不得细标的育雏湾北侧。"
+      "id": "P2",
+      "kind": "路径",
+      "text": "东台到入口经水亭，步行7分钟。20:40至20:50容单组常亮低强度红光。",
+      "arrival_order": 7,
+      "references": []
     },
     {
-      "kind": "release",
-      "id": "r1",
-      "text": "已签发|春季报告用旧名2025版，只比较每周有完整巡护记录的样本。"
+      "id": "P3",
+      "kind": "路径",
+      "text": "东台到入口经南堤，步行8分钟。20:38至20:50容单组常亮低强度红光，每组必有陪行。",
+      "arrival_order": 8,
+      "references": []
+    },
+    {
+      "id": "P4",
+      "kind": "规则",
+      "text": "重复点亮不可充作连续照明，两队占同一红光窗口按资源冲突处理。",
+      "arrival_order": 9,
+      "references": []
+    },
+    {
+      "id": "I1",
+      "kind": "入场",
+      "text": "码N11已在20:16核销，东台韩榆、余果，返程原约水亭、陪行员亭二。",
+      "arrival_order": 10,
+      "references": [
+        "F1",
+        "T1",
+        "P1",
+        "P2"
+      ]
+    },
+    {
+      "id": "I2",
+      "kind": "预留",
+      "text": "码N12仅留东台一席并想约南堤，B3本人未确认，尚未点验。",
+      "arrival_order": 11,
+      "references": [
+        "B3",
+        "T1",
+        "P3"
+      ]
+    },
+    {
+      "id": "C1",
+      "kind": "变更",
+      "text": "20:31起水亭回入口一段临时关闭，亭二无法调往南堤。",
+      "arrival_order": 12,
+      "references": [
+        "P2"
+      ]
+    },
+    {
+      "id": "L1",
+      "kind": "人员",
+      "text": "南堤陪行员南一从20:38到20:52可带一组，出口不接受无陪行转接。",
+      "arrival_order": 13,
+      "references": [
+        "P3"
+      ]
     }
   ]
 }
